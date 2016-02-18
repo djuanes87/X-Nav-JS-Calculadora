@@ -1,0 +1,9 @@
+a{
+  text-decoration: none;
+}
+
+#display{
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: #5EC696;
+}
