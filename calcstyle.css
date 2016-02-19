@@ -1,9 +1,32 @@
+body{
+  padding-top: 2em;
+  background-color: black;
+
+}
+
 a{
   text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+h1{
+  color: white;
+}
+
+.tecla{
+  background-color: #414945;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 #display{
   border: 2px solid black;
-  border-radius: 2px;
+  border-radius: 6px;
   background-color: #5EC696;
+  padding-top: 0.5em;
+  padding-left: 1em;
+  font-size: 30px;
+  text-align: right;
 }

@@ -3,18 +3,47 @@
    <head>
      <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
      <title>Calculadora Binaria</title>
-     <link rel="stylesheet" type="text/css" href="calcstyle.css"/>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="calcstyle.css"/>
      <script type="text/javascript" charset="utf-8" src="calc.js"></script>
    </head>
    <body>
-     <div id="display">
-       <p id="rslt">0</p>
-    </div>
-     <p><a href="javascript:num(0)">0</a></p>
-     <p><a href="javascript:num(1)">1</a></p>
-     <p><a href="javascript:suma()">+</a></p>
-     <p><a href="javascript:resultado()">=</a></p>
-     <p><a href="javascript:clr()">C</a></p>
+     <div class="container-fluid">
+       <div class="row">
+
+         <div class="col-md-12">
+            <h1>CALCULADORA BINARIA</h1>
+         </div>
+
+         <div class="col-md-12">
+           <div class="col-md-6" id="display">
+              <p id="rslt">0</p>
+            </div>
+         </div>
+
+         <div class="col-md-12">
+            <div class="col-md-2 tecla">
+              <p><a href="javascript:num(0)">0</a></p>
+            </div>
+            <div class="col-md-2 tecla">
+              <p><a href="javascript:num(1)">1</a></p>
+            </div>
+            <div class="col-md-2 tecla">
+              <p><a href="javascript:suma()">+</a></p>
+            </div>
+
+          </div>
+           <div class="col-md-12">
+             <div class="col-md-3 tecla">
+               <p><a href="javascript:resultado()">=</a></p>
+             </div>
+             <div class="col-md-3 tecla">
+               <p><a href="javascript:clr()">C</a></p>
+             </div>
+          </div>
+
+          </div>
+        </div>
 
 
    </body>
